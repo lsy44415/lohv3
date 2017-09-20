@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentPage    Title="ICT" 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="aqq.ResourcePage"
+     xmlns:local="clr-namespace:aqq.MarkupExtension" >
+
+
+
+    <ContentPage.ToolbarItems>
+    <ToolbarItem Text="Skill" Activated="Handle_Activated"></ToolbarItem>
+        </ContentPage.ToolbarItems>
+
+    <Grid>
+        <Image Grid.RowSpan="1" Grid.ColumnSpan="1" Opacity="0.2" x:Name="bgict1" Aspect="AspectFill"/>
+
+
+       <ScrollView Grid.Row = "0" Grid.Column="0">
+        <StackLayout Spacing="10">
+               
+        
+    <Label Text="Course 1" Font="Bold" XAlign="Center"/>    
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict1.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel1Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label  Text="Difficulty: ★ " XAlign="Center"></Label>
+      <Label Text="How To Make A Wordpress Website 2017 - Divi Theme Tutorial" FontSize="16" XAlign="Center"></Label>
+      <Label Text="Learn how to create a wordpress website from scartch! Complete wordpress and divi theme tutorial"
+         FontSize="13" TextColor="Gray" XAlign="Center"/>
+  
+
+
+
+
+    <Label Text="Course 2" Font="Bold" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict2.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel2Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★ " XAlign="Center"/>
+        <Label Text="Create An HTML5 Video Player From Scratch" FontSize="16" XAlign="Center"/>
+        <Label Text="Put your web development skills into practice with a nice project!"
+         FontSize="13" TextColor="Gray" XAlign="Center"/>
+  
+    
+
+
+
+
+
+
+    <Label Text="Course 3"  Font= "Bold" XAlign="Center"/>    
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict3.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel3Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★ " XAlign="Center"/>
+          <Label Text="Quickstart AngularJS" FontSize="16" XAlign="Center"/>
+          <Label Text="A quick practical approach to let you know whether AngularJS is the tool of choice for your project as well as you!"
+         FontSize="13" TextColor="Gray" XAlign="Center"/>
+
+                
+        <Label Text="Course 4" Font="Bold"  XAlign="Center"/>   
+        <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict4.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel4Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                
+            <Label Text="Difficulty: ★ " XAlign="Center"/>
+            <Label Text="Build Your First Website in 1 Week with HTML5 and CSS3" FontSize="16" XAlign="Center"/>
+            <Label Text="The Fastest Way to Learn HTML and CSS for the Real World" FontSize="13" TextColor="Gray" XAlign="Center"/>
+
+
+
+
+
+
+    <Label Text="Course 5" Font="Bold" XAlign="Center"/>       
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict5.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel5Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="Difficulty: ★★ " XAlign="Center" />
+            <Label Text="Serverless Workflow Management with AWS Step Functions" FontSize="16" XAlign="Center"/>
+            <Label Text="Using Amazon Web Services step functions to orchestrate micro services into state-machines to perform business process"
+         FontSize="13" TextColor="Gray" XAlign="Center"/>
+
+
+                <Label Text="Course 6" Font="Bold" XAlign="Center"/>       
+                <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict6.png}">
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel6Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="Difficulty: ★★ " XAlign="Center"/>
+            <Label Text="How To Create a Website in a Weekend! (Project-Centered Course)" FontSize="16" XAlign="Center"></Label>
+<Label Text="In this project-centered course, you’ll design, build, and publish a basic website that incorporates text, sound, images, hyperlinks, plug-ins, and social media interactivity. "
+         FontSize="13" TextColor="Gray" XAlign="Center"/>
+  
+    
+</StackLayout>  
+</ScrollView>
+</Grid>
+</ContentPage>

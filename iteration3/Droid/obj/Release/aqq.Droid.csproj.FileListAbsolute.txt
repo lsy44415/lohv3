@@ -1,0 +1,177 @@
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/aqq.Droid.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/aqq.Droid.pdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/com.companyname.aqq.apk
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/com.companyname.aqq-Signed.apk
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/aqq.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/FormsViewGroup.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Newtonsoft.Json.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/SQLite-net.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Annotations.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Compat.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Core.UI.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Core.Utils.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Design.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Fragment.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Media.Compat.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Transition.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.v4.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.v7.CardView.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.v7.Palette.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Core.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Platform.Android.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Platform.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Xaml.dll
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/FormsViewGroup.pdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/FormsViewGroup.dll.mdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Core.pdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Core.dll.mdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Core.xml
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Platform.Android.pdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Platform.Android.dll.mdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Xaml.pdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Xaml.dll.mdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Xamarin.Forms.Xaml.xml
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/SQLite-net.pdb
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/SQLite-net.xml
+/Users/irissss/Projects/aqq 3/Droid/bin/Release/Newtonsoft.Json.xml
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/aqq.Droid.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/aqq.Droid.dll
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/aqq.Droid.pdb
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/android/bin/com.companyname.aqq.apk
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/layout/tabbar.xml
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/layout/toolbar.xml
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/values/styles.xml
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable/home.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-hdpi/home.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-xhdpi/home.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-xxhdpi/home.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable/about.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable/help.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-hdpi/about.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-hdpi/help.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-xhdpi/about.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-xhdpi/help.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-xxhdpi/about.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-xxhdpi/help.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable/icon.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-hdpi/icon.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-xhdpi/icon.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/res/drawable-xxhdpi/icon.png
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/R.cs.flag
+/Users/irissss/Projects/aqq 3/Droid/obj/Release/uploadflags.txt
+/Users/irissss/Projects/iteration2/Droid/bin/Release/aqq.Droid.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/aqq.Droid.pdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/com.companyname.aqq.apk
+/Users/irissss/Projects/iteration2/Droid/bin/Release/com.companyname.aqq-Signed.apk
+/Users/irissss/Projects/iteration2/Droid/bin/Release/aqq.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/FormsViewGroup.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Microsoft.WindowsAzure.Mobile.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Microsoft.WindowsAzure.Mobile.Ext.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Newtonsoft.Json.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PCLCrypto.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PInvoke.BCrypt.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PInvoke.Kernel32.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PInvoke.NCrypt.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PInvoke.Windows.Core.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Quickblox.Sdk.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Quickblox.Sdk.Platform.Abstractions.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Quickblox.Sdk.Platform.Android.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Sockets.Plugin.Abstractions.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Sockets.Plugin.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/SQLite-net.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/System.Net.Http.Extensions.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/System.Net.Http.Primitives.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Validation.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Annotations.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Compat.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Core.UI.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Core.Utils.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.CustomTabs.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Design.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Fragment.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Media.Compat.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Transition.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.v4.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.v7.CardView.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.v7.Palette.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Core.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Platform.Android.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Platform.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Xaml.dll
+/Users/irissss/Projects/iteration2/Droid/bin/Release/FormsViewGroup.pdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/FormsViewGroup.dll.mdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Core.pdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Core.dll.mdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Core.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Platform.Android.pdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Platform.Android.dll.mdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Xaml.pdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Xaml.dll.mdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Xamarin.Forms.Xaml.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/SQLite-net.pdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/SQLite-net.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Newtonsoft.Json.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Sockets.Plugin.Abstractions.pdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Sockets.Plugin.Abstractions.dll.mdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Sockets.Plugin.Abstractions.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Sockets.Plugin.pdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Sockets.Plugin.dll.mdb
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Sockets.Plugin.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/System.Net.Http.Extensions.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/System.Net.Http.Primitives.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PInvoke.Windows.Core.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PInvoke.Kernel32.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PInvoke.BCrypt.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PInvoke.NCrypt.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Validation.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/PCLCrypto.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Microsoft.WindowsAzure.Mobile.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Microsoft.WindowsAzure.Mobile.Ext.xml
+/Users/irissss/Projects/iteration2/Droid/bin/Release/Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
+/Users/irissss/Projects/iteration2/Droid/obj/Release/aqq.Droid.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/iteration2/Droid/obj/Release/aqq.Droid.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/iteration2/Droid/obj/Release/aqq.Droid.dll
+/Users/irissss/Projects/iteration2/Droid/obj/Release/aqq.Droid.pdb
+/Users/irissss/Projects/iteration2/Droid/obj/Release/android/bin/com.companyname.aqq.apk
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/layout/tabbar.xml
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/layout/toolbar.xml
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/values/styles.xml
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable/home.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-hdpi/home.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-xhdpi/home.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-xxhdpi/home.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable/about.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable/help.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-hdpi/about.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-hdpi/help.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-xhdpi/about.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-xhdpi/help.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-xxhdpi/about.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-xxhdpi/help.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable/icon.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-hdpi/icon.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-xhdpi/icon.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/res/drawable-xxhdpi/icon.png
+/Users/irissss/Projects/iteration2/Droid/obj/Release/R.cs.flag
+/Users/irissss/Projects/iteration2/Droid/obj/Release/uploadflags.txt

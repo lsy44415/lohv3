@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="aqq.VolunteerPage"> <ScrollView>
+<StackLayout Padding="10,10,10,10" Spacing="5">
+       
+        <Label XAlign="Center" FontSize="12" Text="Thank you for volunteering! " TextColor="Gray"></Label>
+                <Label XAlign="Center" FontSize="12" Text="Please fill out this form so that we can match you with the learners:" TextColor="Gray"></Label>
+        <Label XAlign="Center" Text="Please let us know what skill you are interesting in teaching:" ></Label>
+
+     <Picker x:Name="picker" Title="Skills list">
+        <Picker.Items>
+                <x:String>ICT</x:String>
+                <x:String>English</x:String>
+                <x:String>Health</x:String>
+                <x:String>Food</x:String>
+            </Picker.Items>
+        </Picker>
+        
+        <Entry TextColor="Navy" Keyboard="Text"
+         Placeholder="Name" x:Name="name"></Entry>
+            <Label x:Name="label1" IsVisible="false" TextColor="Red" FontSize="12" Text="Please enter a username"></Label>
+
+              <Entry TextColor="Navy" Keyboard="Text" 
+            Placeholder="PostCode" x:Name="post"></Entry>
+                <Label x:Name="label3" IsVisible="false" TextColor="Red" FontSize="12" Text="Please enter a valid Victoria postcode(e.g.3000)"></Label>
+        <Label Text="Please explain your past experience related to the skill you want to teach (Optional) "></Label>
+      
+        <Editor x:Name="editor" Keyboard="Text" HeightRequest="80" BackgroundColor="#F5F5F5"></Editor>
+
+        <Button Text="Submit" Clicked="Handle_Clicked"></Button>
+        <Label XAlign="Center" Text="If you have already filled this form, you can click skip to course page" FontSize="12" TextColor="Gray"></Label>
+        <Button Text="Skip" Clicked="Skip_Clicked"></Button>
+     
+
+          
+        
+    </StackLayout>    </ScrollView>
+</ContentPage>

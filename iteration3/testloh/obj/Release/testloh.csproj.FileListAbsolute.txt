@@ -1,0 +1,8 @@
+/Users/irissss/Projects/iteration2/testloh/bin/Release/testloh.dll
+/Users/irissss/Projects/iteration2/testloh/bin/Release/nunit.framework.dll
+/Users/irissss/Projects/iteration2/testloh/bin/Release/Xamarin.UITest.dll
+/Users/irissss/Projects/iteration2/testloh/bin/Release/nunit.framework.xml
+/Users/irissss/Projects/iteration2/testloh/bin/Release/Xamarin.UITest.xml
+/Users/irissss/Projects/iteration2/testloh/obj/Release/testloh.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/iteration2/testloh/obj/Release/testloh.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/iteration2/testloh/obj/Release/testloh.dll

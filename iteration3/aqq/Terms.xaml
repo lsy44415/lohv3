@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+   Title="Terms and Conditions"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="aqq.Terms">
+
+    <Grid>
+        <Image Grid.RowSpan="1" Grid.ColumnSpan="1" Opacity="0.2" x:Name="bg" Aspect="AspectFill"/>
+
+
+        <ScrollView Grid.Row="0" Grid.Column="0">
+
+
+   
+
+
+        <StackLayout Padding="10,10,10,10">
+       <Label Text="1.Introduction" FontAttributes="Bold"></Label>
+       <Label 
+            Text="These Standard Terms and Conditions written on this page shall manage your use of this mobile application. These Terms will be applied fully and affect to your use of this mobile application. By using this mobile application, you agree to accept all terms and conditions written in here. You must not use this mobile application if you disagree with any of these Standard Terms and Conditions.
+Minors or people below 18 years old are not allowed to use this mobile application."
+        ></Label>
+            <Label Text="2.Intellectual Property Rights" FontAttributes="Bold"></Label>
+        <Label 
+           Text= "Other than the content you own, under these Terms, Lantern of Hope and/or its licensors own all the intellectual property rights and materials contained in this Mobile application.
+You are granted limited license only for purposes of viewing the material contained on this Mobile application."
+            ></Label>
+            <Label Text="3.  Restrictions"  FontAttributes="Bold"></Label>
+
+             <Label Text="You are specifically restricted from all of the following: "></Label>
+            <Label 
+     Text= "•   publishing any Mobile application material in any other media;"></Label>
+            <Label Text="•   selling, sublicensing and/or otherwise commercializing any Mobile application material;"></Label>
+             <Label Text="•   publicly performing and/or showing any Mobile application material;"></Label>
+             <Label Text="•   using this Mobile application in any way that is or may be damaging to this Mobile application;"></Label>
+             <Label Text="•   using this Mobile application in any way that impacts user access to this Mobile application;"></Label>
+              <Label Text="•   using this Mobile application contrary to applicable laws and regulations, or in any way may cause harm to the Mobile application, or to any person or business entity;"></Label>
+               <Label Text="•   engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this Mobile application;"></Label>
+  <Label Text="•   using this Mobile application to engage in any advertising or marketing.
+Certain areas of this Mobile application are restricted from being access by you and Lantern of Hope may further restrict access by you to any areas of this Mobile application, at any time, in absolute discretion. Any user ID and password you may have for this Mobile application are confidential and you must maintain confidentiality as well."></Label>
+            <Label Text="4.No warranties" FontAttributes="Bold"></Label>
+              <Label 
+            Text= "This Mobile application is provided “as is,” with all faults, and Lantern of Hope express no representations or warranties, of any kind related to this Mobile application or the materials contained on this Mobile application. Also, nothing contained on this Mobile application shall be interpreted as advising you."
+            ></Label>
+            <Label Text="5.Limitation of liability" FontAttributes="Bold"></Label>
+              <Label 
+            Text= "In no event shall Lantern of Hope, nor any of its officers, directors and employees, shall be held liable for anything arising out of or in any way connected with your use of this Mobile application whether such liability is under contract.  Lantern of Hope, including its officers, directors and employees shall not be held liable for any indirect, consequential or special liability arising out of or in any way related to your use of this Mobile application."
+            ></Label>
+
+         <Label Text="6.Indemnification" FontAttributes="Bold"></Label>     
+            <Label 
+            Text= "You hereby indemnify to the fullest extent Lantern of Hope from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these Terms."
+            ></Label>
+            <Label Text="7.Severability" FontAttributes="Bold"></Label>
+                          <Label 
+            Text= "If any provision of these Terms is found to be invalid under any applicable law, such provisions shall be deleted without affecting the remaining provisions herein."
+            ></Label>
+            <Label Text="8.Variation of Terms" FontAttributes="Bold"></Label>
+            <Label 
+            Text= "Lantern of Hope is permitted to revise these Terms at any time as it sees fit, and by using this Mobile application you are expected to review these Terms on a regular basis."
+            ></Label>
+
+            <Label Text="9.Assignment" FontAttributes="Bold"></Label>
+            <Label
+            Text= "The Lantern of Hope is allowed to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification. However, you are not allowed to assign, transfer, or subcontract any of your rights and/or obligations under these Terms."
+            ></Label>
+
+            <Label Text="10.Entire Agreement" FontAttributes="Bold"></Label>
+            <Label 
+            Text= "These Terms constitute the entire agreement between Lantern of Hope and you in relation to your use of this Mobile application, and supersede all prior agreements and understandings."></Label>
+             <Label Text="11.Governing Law and Jurisdiction" FontAttributes="Bold"></Label>
+      <Label Text="These Terms will be governed by and interpreted in accordance with the laws of the State of Victoria, and you submit to the non-exclusive jurisdiction of the state and federal courts located in Victoria for the resolution of any disputes.
+These terms and conditions have been generated at termsandcondiitionssample.com."
+          ></Label>
+    </StackLayout>  </ScrollView></Grid>
+</ContentPage>

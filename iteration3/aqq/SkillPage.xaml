@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+  
+    xmlns:local="clr-namespace:aqq.MarkupExtension" x:Class="aqq.SkillPage">
+    <Grid>
+            <Image Grid.RowSpan="1" Grid.ColumnSpan="1" Opacity="0.2" x:Name="bg" Aspect="AspectFill"/>
+
+
+       <ScrollView Grid.Row = "0" Grid.Column="0">
+
+        <RelativeLayout>
+        
+        <Label x:Name="skill" Text="Which skill you want to learn:"  FontSize="20"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,Property = Width,Factor = 1}"
+            >
+        </Label>
+   
+        
+        <BoxView x:Name="line"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=1}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.005}"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor =0}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height, Factor =0.10,Constant=10}"    
+            BackgroundColor="Silver" Opacity="0.3" />
+
+            <Image x:Name="ict"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.2,Constant=0}"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor =0, Constant=0}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height, Factor =0.15,Constant=10}" 
+            Source="{local:EmbeddedImage ResourceId = aqq.Image.ict.png}" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImage1Tapped" NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+        
+            <Image x:Name="english"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.2,Constant=0}"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor =0, Constant=0}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height, Factor =0.36,Constant=8}" 
+            Source="{local:EmbeddedImage ResourceId = aqq.Image.english.png}" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImage2Tapped" NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+        
+            <Image x:Name="health"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.2,Constant=0}"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor =0, Constant=0}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height, Factor =0.57,Constant=6}" 
+            Source="{local:EmbeddedImage ResourceId = aqq.Image.health.png}">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImage3Tapped" NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+        
+            <Image x:Name="food"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.2,Constant=0}"
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor =0, Constant=0}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height, Factor =0.78,Constant=5}" 
+            Source="{local:EmbeddedImage ResourceId = aqq.Image.food.png}">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImage4Tapped" NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,158 @@
+/Users/irissss/Projects/aqq/aqq/bin/Debug/aqq.dll
+/Users/irissss/Projects/aqq/aqq/bin/Debug/aqq.pdb
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Core.dll
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Core.xml
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Platform.pdb
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Platform.dll.mdb
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.App.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.MyPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.HomePage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.ResourcePage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.EnglishPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.HealthPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.FoodPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.dll
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.pdb
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/aqq/aqq/bin/Debug/SQLite-net.dll
+/Users/irissss/Projects/aqq/aqq/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/aqq/aqq/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/aqq/aqq/bin/Debug/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/aqq/aqq/bin/Debug/SQLite-net.pdb
+/Users/irissss/Projects/aqq/aqq/bin/Debug/SQLite-net.xml
+/Users/irissss/Projects/aqq/aqq/obj/Debug/aqq.ListPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Newtonsoft.Json.dll
+/Users/irissss/Projects/aqq/aqq/bin/Debug/Newtonsoft.Json.xml
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/aqq.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/aqq.pdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Newtonsoft.Json.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/SQLite-net.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/System.Net.Http.Extensions.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/System.Net.Http.Primitives.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Core.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Core.xml
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Platform.pdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Platform.dll.mdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/SQLite-net.pdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/SQLite-net.xml
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/Newtonsoft.Json.xml
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/System.Net.Http.Extensions.xml
+/Users/irissss/Projects/aqq 3/aqq/bin/Debug/System.Net.Http.Primitives.xml
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.App.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.MyPage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.HomePage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.ResourcePage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.EnglishPage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.HealthPage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.FoodPage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.SkillPage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.dll
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.pdb
+/Users/irissss/Projects/aqq 3/aqq/obj/Debug/aqq.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/aqq.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/aqq.pdb
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Quickblox.Sdk.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Quickblox.Sdk.Platform.Abstractions.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Sockets.Plugin.Abstractions.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Sockets.Plugin.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/SQLite-net.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/SQLite-net.pdb
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/SQLite-net.xml
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Sockets.Plugin.Abstractions.pdb
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Sockets.Plugin.Abstractions.xml
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Sockets.Plugin.pdb
+/Users/irissss/Projects/iteration2/aqq/bin/Debug/Sockets.Plugin.xml
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.App.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.MyPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.HomePage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.ResourcePage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.EnglishPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.HealthPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.FoodPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.SkillPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.VolunteerPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.FormPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.TeachPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.ClassListPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.NameListPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.Login.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.FriendListPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.EditCourse.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.learnerClassList.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.Terms.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.dll
+/Users/irissss/Projects/iteration2/aqq/obj/Debug/aqq.pdb
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/aqq.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/aqq.pdb
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Quickblox.Sdk.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Quickblox.Sdk.Platform.Abstractions.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Sockets.Plugin.Abstractions.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Sockets.Plugin.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/SQLite-net.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/SQLite-net.pdb
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/SQLite-net.xml
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Sockets.Plugin.Abstractions.pdb
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Sockets.Plugin.Abstractions.xml
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Sockets.Plugin.pdb
+/Users/irissss/Projects/iteration3/aqq/bin/Debug/Sockets.Plugin.xml
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.App.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.MyPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.HomePage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.ResourcePage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.EnglishPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.HealthPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.FoodPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.SkillPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.VolunteerPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.FormPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.TeachPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.ClassListPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.NameListPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.Login.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.FriendListPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.EditCourse.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.learnerClassList.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.Terms.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.MapMain.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.JobPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.JobMap.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.SkipPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.VolunteeringJob.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.VolunteeringMap.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.StartPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.dll
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.pdb
+/Users/irissss/Projects/iteration3/aqq/obj/Debug/aqq.Disclaimer.xaml.g.cs

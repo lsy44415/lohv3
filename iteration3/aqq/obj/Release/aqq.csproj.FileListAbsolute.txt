@@ -1,0 +1,143 @@
+/Users/irissss/Projects/aqq/aqq/bin/Release/aqq.dll
+/Users/irissss/Projects/aqq/aqq/bin/Release/Newtonsoft.Json.dll
+/Users/irissss/Projects/aqq/aqq/bin/Release/SQLite-net.dll
+/Users/irissss/Projects/aqq/aqq/bin/Release/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/aqq/aqq/bin/Release/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/aqq/aqq/bin/Release/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Core.dll
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Platform.dll
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Xaml.dll
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Core.pdb
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Core.dll.mdb
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Core.xml
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Platform.pdb
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Platform.dll.mdb
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Xaml.pdb
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Xaml.dll.mdb
+/Users/irissss/Projects/aqq/aqq/bin/Release/Xamarin.Forms.Xaml.xml
+/Users/irissss/Projects/aqq/aqq/bin/Release/SQLite-net.pdb
+/Users/irissss/Projects/aqq/aqq/bin/Release/SQLite-net.xml
+/Users/irissss/Projects/aqq/aqq/bin/Release/Newtonsoft.Json.xml
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.App.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.MyPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.HomePage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.ResourcePage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.EnglishPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.HealthPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.FoodPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.ListPage.xaml.g.cs
+/Users/irissss/Projects/aqq/aqq/obj/Release/aqq.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/aqq.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Newtonsoft.Json.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/SQLite-net.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Core.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Platform.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Xaml.dll
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Core.pdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Core.dll.mdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Core.xml
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Platform.pdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Platform.dll.mdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Xaml.pdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Xaml.dll.mdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Xamarin.Forms.Xaml.xml
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/SQLite-net.pdb
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/SQLite-net.xml
+/Users/irissss/Projects/aqq 3/aqq/bin/Release/Newtonsoft.Json.xml
+/Users/irissss/Projects/aqq 3/aqq/obj/Release/aqq.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/aqq 3/aqq/obj/Release/aqq.App.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Release/aqq.MyPage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Release/aqq.HomePage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Release/aqq.ResourcePage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Release/aqq.EnglishPage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Release/aqq.HealthPage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Release/aqq.FoodPage.xaml.g.cs
+/Users/irissss/Projects/aqq 3/aqq/obj/Release/aqq.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/aqq.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Quickblox.Sdk.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Quickblox.Sdk.Platform.Abstractions.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Sockets.Plugin.Abstractions.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Sockets.Plugin.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/SQLite-net.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/iteration2/aqq/bin/Release/SQLite-net.pdb
+/Users/irissss/Projects/iteration2/aqq/bin/Release/SQLite-net.xml
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Sockets.Plugin.Abstractions.pdb
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Sockets.Plugin.Abstractions.xml
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Sockets.Plugin.pdb
+/Users/irissss/Projects/iteration2/aqq/bin/Release/Sockets.Plugin.xml
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.App.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.MyPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.HomePage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.ResourcePage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.EnglishPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.HealthPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.FoodPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.SkillPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.VolunteerPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.FormPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.TeachPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.ClassListPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.NameListPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.Login.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.FriendListPage.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.EditCourse.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.learnerClassList.xaml.g.cs
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.dll
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/iteration2/aqq/obj/Release/aqq.Terms.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/bin/Release/aqq.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Quickblox.Sdk.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Quickblox.Sdk.Platform.Abstractions.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Sockets.Plugin.Abstractions.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Sockets.Plugin.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/SQLite-net.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/SQLitePCLRaw.batteries_green.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/SQLitePCLRaw.batteries_v2.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/SQLitePCLRaw.core.dll
+/Users/irissss/Projects/iteration3/aqq/bin/Release/SQLite-net.pdb
+/Users/irissss/Projects/iteration3/aqq/bin/Release/SQLite-net.xml
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Sockets.Plugin.Abstractions.pdb
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Sockets.Plugin.Abstractions.xml
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Sockets.Plugin.pdb
+/Users/irissss/Projects/iteration3/aqq/bin/Release/Sockets.Plugin.xml
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.App.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.MyPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.HomePage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.ResourcePage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.EnglishPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.HealthPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.FoodPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.SkillPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.VolunteerPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.FormPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.TeachPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.ClassListPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.NameListPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.Login.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.FriendListPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.EditCourse.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.learnerClassList.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.Terms.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.MapMain.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.JobPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.JobMap.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.SkipPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.VolunteeringJob.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.VolunteeringMap.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.StartPage.xaml.g.cs
+/Users/irissss/Projects/iteration3/aqq/obj/Release/aqq.dll

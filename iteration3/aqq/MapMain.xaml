@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:aqq;assembly=aqq"
+
+    x:Class="aqq.MapMain">
+    <ContentPage Title="library" Icon="book.png" BackgroundColor="#F9F6F6">
+
+    <StackLayout >
+      <ActivityIndicator Color="Black"
+                       IsVisible="False"
+                       IsEnabled="True"
+                        IsRunning="true"
+                       x:Name="indicator"/>
+
+            <StackLayout BackgroundColor="#0C59CF" >
+                <Grid>
+            <Label  x:Name="testLogin" TextColor="#FEFCE0" FontSize="12"
+                Text="Closest libraries to your profile postcode are displayed below:"
+                    IsEnabled="false" IsVisible="false"></Label>
+            <Label  x:Name="testNoneLogin" TextColor="#FEFCE0" FontSize="13"
+                Text="Closest libraries to your location are displayed below:"
+                    IsEnabled="false" IsVisible="true"></Label>
+
+                </Grid>
+            
+            </StackLayout >
+        
+               
+            <StackLayout Orientation="Horizontal" Padding="-10,0,0,0">
+
+                <Grid>
+                <Image Grid.Row="0" Grid.Column="0" x:Name="cl">
+                <Image.GestureRecognizers>
+            <TapGestureRecognizer
+            Tapped="clTapped"
+            NumberOfTapsRequired="1" />
+               </Image.GestureRecognizers>
+
+                    </Image>
+                <Image Grid.Row="0" Grid.Column="1" x:Name="cp">
+                <Image.GestureRecognizers>
+            <TapGestureRecognizer
+            Tapped="cpTapped"
+            NumberOfTapsRequired="1" />
+               </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                </StackLayout>
+
+      <StackLayout >
+       <Grid>
+             <Grid.RowDefinitions>
+             <RowDefinition Height= "1*"/>
+             <RowDefinition Height= "10*"/>
+                        
+
+             </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="8" Text="click the pin to get direction:" TextColor="Red"></Label> 
+                <Button Grid.Row="0" Grid.Column="7" Image="target.png"  Clicked="Handle_Clicked"></Button>   
+
+                    <local:CustomMap Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="8" x:Name="myMap" MapType="Street" WidthRequest="{x:Static local:App.ScreenWidth}"
+            HeightRequest="280" IsVisible="false">
+           
+                    </local:CustomMap>
+             <local:CustomMap Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="8" x:Name="MapCurrent" MapType="Street"  WidthRequest="{x:Static local:App.ScreenWidth}"
+            HeightRequest="280" IsVisible="false"/>
+                    
+                </Grid>
+         
+            
+
+
+            </StackLayout>
+          
+  </StackLayout>
+</ContentPage>
+    <ContentPage Title="bicycle" Icon="bicycle.png">
+    <StackLayout>
+             <ActivityIndicator Color="Black"
+                       IsVisible="False"
+                       IsEnabled="True"
+                        IsRunning="true"
+                       x:Name="indicator2"/>
+            <Grid>
+            <Grid.RowDefinitions>
+            <RowDefinition Height= "1*"/>
+            <RowDefinition Height= "1*"/>
+            <RowDefinition Height= "10*"/>
+
+                </Grid.RowDefinitions>
+                 <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="8" BackgroundColor="#0C59CF" TextColor="#FEFCE0" FontSize="14"  x:Name="test2" ></Label>
+
+
+                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="7" Text="click the pin to get direction:" TextColor="Red"></Label>
+                 <Button Grid.Row="1" Grid.Column="7" Image="target.png" Clicked="Handle2_Clicked"></Button>
+             <local:CustomMap Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="8" x:Name="bicMap" MapType="Street" WidthRequest="200" HeightRequest="300" >
+            </local:CustomMap>
+                
+
+            </Grid>
+       
+        
+    
+  </StackLayout>
+</ContentPage> 
+        </TabbedPage>

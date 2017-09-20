@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="aqq.FormPage">
+    <Grid>
+
+
+  <Image Grid.RowSpan="1" Grid.ColumnSpan="1" x:Name="background" Aspect="AspectFill" Opacity="0.2"/>
+    <ScrollView Grid.Row = "0" Grid.Column="0">
+<StackLayout Padding="10,20,10,10" Spacing="50" HorizontalOptions="Center" VerticalOptions="Center" >
+       
+<!-- <Label XAlign="Center" Text="Please let us know what skill you are interesting in learning:" ></Label>
+     <Picker x:Name="picker" Title="Skills list">
+        <Picker.Items>
+                <x:String>ICT</x:String>
+                <x:String>English</x:String>
+                <x:String>Health</x:String>
+                <x:String>Food</x:String>
+            </Picker.Items>
+        </Picker>
+  
+        <Entry TextColor="Navy" Keyboard="Text"
+         Placeholder="User name" x:Name="name"></Entry>
+           
+              <Entry TextColor="Navy" Keyboard="Text" 
+            Placeholder="PostCode" x:Name="post"></Entry>
+      
+
+       <Button Text="Submit" Clicked="Handle_Clicked1" x:Name="btn1"></Button>
+        <Label XAlign="Center" Text="(If you have already filled this form, you can directly view other learners and courses)" FontSize="10" TextColor="Gray"></Label>-->
+     
+       <Button Text="Find Peer" Clicked="Handle_Clicked2"  x:Name="btn2" FontSize="30"
+                  BackgroundColor="#4DAFEA" HeightRequest="50" BorderRadius="10" TextColor="White" WidthRequest="200"></Button>
+       <Button Text="Find Courses" Clicked="Handle_Clicked3"  x:Name="btn3" FontSize="30" 
+               BackgroundColor="#4DAFEA" HeightRequest="50" BorderRadius="10" TextColor="White" WidthRequest="200"></Button>
+      
+        <Label x:Name="label1" IsVisible="false" TextColor="Red" FontSize="12" Text="Please enter a username"></Label>
+         <Label x:Name="label3" IsVisible="false" TextColor="Red" FontSize="12" Text="Please enter a valid Victoria postcode(e.g.3000)"></Label>
+        
+    </StackLayout>
+
+      </ScrollView> </Grid>
+</ContentPage>

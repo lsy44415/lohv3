@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Disclaimer"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="aqq.Disclaimer">
+
+      <Grid>
+        <Image Grid.RowSpan="1" Grid.ColumnSpan="1" Opacity="0.2" x:Name="bg" Aspect="AspectFill"/>
+
+
+        <ScrollView Grid.Row="0" Grid.Column="0">
+
+
+   
+
+
+        <StackLayout Padding="10,10,10,10">
+              
+     
+       <Label 
+            Text="Lantern of Hope uses open datasets from data.gov.au and data.melbourne.vic.gov.au/ to connect refugees to different resources present in Victoria.
+"
+        ></Label>
+            <Label Text="Data Sources: " FontAttributes="Bold" TextColor="#4DAFEA" FontSize="20"></Label>
+        <Label TextColor="#4DAFEA"
+           Text= "• Victorian Electors by Locality, Postcode and Electorates, Dec 2016"
+            ></Label>
+                  <Label FontSize="13"
+           Text= "  Publisher/Agency:  Victorian Electoral Commission"
+            ></Label>
+                  <Label  FontSize="13"
+      Text= "  Dataset Link: https://www.data.vic.gov.au/data/dataset/victorian-electors-by-locality-postcode-and-electorates
+"></Label>
+
+                                  <Label  FontSize="13"
+      Text= "  Copyright Details: http://creativecommons.org/licenses/by/4.0/
+"></Label>
+
+
+ <Label TextColor="#4DAFEA"
+           Text= "• Victoria Libraries, Mar 2016
+"
+            ></Label>
+                  <Label FontSize="13"
+           Text= "  Publisher/Agency:  Department of Premier and Cabinet"
+            ></Label>
+                  <Label  FontSize="13"
+      Text= "  Dataset Link: https://www.data.vic.gov.au/data/dataset/libraries
+"></Label>
+
+                                  <Label  FontSize="13"
+      Text= "  Copyright Details: http://creativecommons.org/licenses/by/4.0/
+"></Label>
+
+                 <Label TextColor="#4DAFEA"
+           Text= "• Employment Services Provider Locations, May 2016 
+"
+            ></Label>
+                  <Label FontSize="13"
+           Text= "  Publisher/Agency:  Department of Employment
+"
+            ></Label>
+                  <Label  FontSize="13"
+      Text= "  Dataset Link: : https://data.gov.au/dataset/employment-provider-locations-and-contacts
+"></Label>
+
+                                  <Label  FontSize="13"
+      Text= "  Copyright Details: : http://creativecommons.org/licenses/by/3.0/au/
+
+"></Label>
+                
+
+
+                 <Label TextColor="#4DAFEA"
+           Text= "• Melbourne Bike Share stations, with current number of free and used docks
+"
+            ></Label>
+                  <Label FontSize="13"
+           Text= "  Publisher/Agency:  City of Melbourne, Australia"
+            ></Label>
+                  <Label  FontSize="13"
+      Text= "  Dataset Link: https://data.melbourne.vic.gov.au/Transport-Movement/Melbourne-Bike-Share-stations-with-current-number-/tdvh-n9dv
+"></Label>
+  <Label  FontSize="13"
+      Text= "  Copyright Details: : http://creativecommons.org/licenses/by/3.0/au/
+
+"></Label>
+         
+      <Label Text="Free images used in the app where downloaded from: www.pixabay.com 
+"
+          ></Label>
+    </StackLayout>  </ScrollView></Grid>
+
+
+    
+</ContentPage>

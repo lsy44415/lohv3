@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" Title="Course" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:aqq.MarkupExtension"
+    x:Class="aqq.learnerClassList"  BackgroundColor="#F9F6F6">
+	<StackLayout Padding="6,10,6,10" Spacing="10">
+        <Label XAlign="Center" Text="These are all the courses offered that are related to your skills. To enroll in a course, swipe left and choose Enroll button." FontSize="12"></Label>
+    <StackLayout Orientation="Horizontal" Spacing="30" VerticalOptions="Center" HorizontalOptions="Center">
+        <Button Text="All Courses" Clicked="Handle_Clicked2" HorizontalOptions="CenterAndExpand" BackgroundColor="#4DAFEA" FontSize="14"
+                    HeightRequest="35" BorderRadius="10" TextColor="White"  WidthRequest="150"></Button>
+  <Button Clicked="Handle_Clicked" Text="Enrolled Courses" HorizontalOptions="CenterAndExpand" BackgroundColor="#4DAFEA" FontSize="14"
+                    HeightRequest="35" BorderRadius="10" TextColor="White" WidthRequest="150" ></Button>   </StackLayout> 
+
+       
+<ListView x:Name="listview1" RowHeight="70" SeparatorColor="Blue" Opacity="0.6">
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                <ViewCell>
+                        <Grid>
+       <Grid.ColumnDefinitions>  
+                        <ColumnDefinition Width="1*" />  
+                        <ColumnDefinition Width="1*" />  
+                        <ColumnDefinition Width="2*" />  
+                </Grid.ColumnDefinitions>  
+       
+          <Label Grid.Row="1" Grid.Column="2" Text="{Binding Skill}" FontSize="11"/> 
+          <Label Grid.Row="0" Grid.Column="1" Text="Topic: " FontSize="11"></Label>        
+         <Label Grid.Row="0" Grid.Column="2" Text="{Binding Topic}" FontSize="11"/>  
+         <Label  Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Location}" FontSize="11"/>
+          <Label Grid.Row="2" Grid.Column="0" Text="Date: " FontSize="11"></Label>        
+          <Label  Grid.Row="2" Grid.Column="1" Text="{Binding Date}" FontSize="11"/>
+          <Label  Grid.Row="2" Grid.Column="2" Text="{Binding Time}" FontSize="11"/>
+         <!--  <Label Grid.Row="3" Grid.Column="0" Text="Teacher: " FontSize="11"></Label>  -->
+          <Label  Grid.Row="0" Grid.Column="0" Text="{Binding Name}" FontSize="11"/>
+        <!--  <Label  Grid.Row="3" Grid.Column="2" Text="{Binding Email}" FontSize="11"/>-->
+        </Grid>
+                         <ViewCell.ContextActions> 
+                       <MenuItem Text="Map" Clicked="Map_Clicked" CommandParameter="{Binding .}" IsDestructive="true"></MenuItem>
+                        <MenuItem Text="Enrol" Clicked="Enrol_Clicked" CommandParameter="{Binding .}"></MenuItem>
+                            </ViewCell.ContextActions>
+                  </ViewCell>      
+            </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
+
+
+        <ListView x:Name="listview2" RowHeight="70" IsVisible="false" Opacity="0.6"
+         >
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                <ViewCell>
+                 <Grid>
+       <Grid.ColumnDefinitions>  
+                        <ColumnDefinition Width="1*" />  
+                        <ColumnDefinition Width="1*" />  
+                        <ColumnDefinition Width="2*" /> 
+
+                </Grid.ColumnDefinitions>  
+       
+          <Label Grid.Row="1" Grid.Column="2" Text="{Binding Skill}" FontSize="11"/> 
+          <Label Grid.Row="0" Grid.Column="1" Text="Topic: " FontSize="11"></Label>        
+         <Label Grid.Row="0" Grid.Column="2" Text="{Binding Topic}" FontSize="11"/>  
+         <Label  Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Location}" FontSize="11"/>
+          <Label Grid.Row="2" Grid.Column="0" Text="Date: " FontSize="11"></Label>        
+          <Label  Grid.Row="2" Grid.Column="1" Text="{Binding Date}" FontSize="11"/>
+          <Label  Grid.Row="2" Grid.Column="2" Text="{Binding Time}" FontSize="11"/>
+         <!--  <Label Grid.Row="3" Grid.Column="0" Text="Teacher: " FontSize="11"></Label>  -->
+          <Label  Grid.Row="0" Grid.Column="0" Text="{Binding Teacher}" FontSize="11"/>
+        <!--  <Label  Grid.Row="3" Grid.Column="2" Text="{Binding Email}" FontSize="11"/>-->
+        </Grid>
+                         <ViewCell.ContextActions> 
+                        <MenuItem Text="Map" Clicked="MapEnrol_Clicked" CommandParameter="{Binding .}"></MenuItem>
+                       <MenuItem Text="Unenrol" Clicked="Delete_Clicked" CommandParameter="{Binding .}" IsDestructive="true"></MenuItem>
+                            </ViewCell.ContextActions>
+                  </ViewCell>      
+            </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
+    </StackLayout>
+</ContentPage>

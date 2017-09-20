@@ -1,0 +1,27 @@
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/System.dll
+Function=xamarin_timezone_get_data
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/irissss/Projects/iteration3/iOS/obj/iPhone/Debug/device-builds/iphone8.2-10.3.3/mtouch-cache/Link/mscorlib.dll
+Function=mono_pmip

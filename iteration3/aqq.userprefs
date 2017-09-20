@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{B2043B92-B762-4188-9AE2-271E8BD12C76}|Default">
+  <MonoDevelop.Ide.ItemProperties.testloh PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="aqq/Disclaimer.xaml">
+    <Files>
+      <File FileName="aqq/SkipPage.xaml" Line="10" Column="63" />
+      <File FileName="aqq/FriendListPage.xaml" Line="42" Column="28" />
+      <File FileName="aqq/EditCourse.xaml" Line="20" Column="5" />
+      <File FileName="aqq/ClassListPage.xaml" Line="26" Column="26" />
+      <File FileName="aqq/learnerClassList.xaml" Line="12" Column="46" />
+      <File FileName="aqq/SkillPage.xaml" Line="11" Column="8" />
+      <File FileName="aqq/FriendListPage.xaml.cs" Line="43" Column="19" />
+      <File FileName="aqq/TeachPage.xaml" Line="36" Column="8" />
+      <File FileName="aqq/Login.xaml.cs" Line="49" Column="28" />
+      <File FileName="aqq/Login.xaml" Line="9" Column="35" />
+      <File FileName="aqq/learnerClassList.xaml.cs" Line="27" Column="18" />
+      <File FileName="aqq/VolunteeringMap.xaml.cs" Line="76" Column="45" />
+      <File FileName="aqq/Disclaimer.xaml" Line="78" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/irissss/Projects/iteration3/aqq/CustomJsonConverter.cs" relfile="aqq/CustomJsonConverter.cs" line="20" column="1" />
+      <Breakpoint file="/Users/irissss/Projects/iteration3/aqq/CustomJsonConverter.cs" relfile="aqq/CustomJsonConverter.cs" line="22" column="1" />
+      <Breakpoint file="/Users/irissss/Projects/iteration3/aqq/CustomJsonConverter.cs" relfile="aqq/CustomJsonConverter.cs" line="25" column="1" />
+      <Breakpoint file="/Users/irissss/Projects/iteration3/aqq/CustomJsonConverter.cs" relfile="aqq/CustomJsonConverter.cs" line="17" column="1" />
+      <Breakpoint file="/Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" line="2001" column="1" />
+      <Breakpoint file="/Users/irissss/Projects/iteration3/aqq/Login.xaml" relfile="aqq/Login.xaml" line="50" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.aqq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.8ae46e24918951c059f825d084a4395831ac63df" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.LOH AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_6P_API_25" />
+</Properties>

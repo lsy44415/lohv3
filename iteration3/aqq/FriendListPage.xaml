@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="aqq.FriendListPage"
+     BackgroundColor="#F9F6F6">
+<StackLayout Padding="10,10,10,10">
+<Label Text="Friend List" XAlign="Center"></Label>
+         <StackLayout>
+        <Label x:Name="tip" XAlign="Center" FontSize="12" Text="" TextColor="Gray"></Label>
+             </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="60">
+        <Button x:Name="peers" Clicked="Peer_List" IsVisible="false" Text="Peers" 
+        HorizontalOptions="CenterAndExpand" BackgroundColor="#4DAFEA"
+                    HeightRequest="40" BorderRadius="10" TextColor="White" WidthRequest="70"
+            ></Button>
+   
+        <Button x:Name="mentors" Clicked="Mentor_List"
+                HorizontalOptions="CenterAndExpand" BackgroundColor="#4DAFEA"
+                    HeightRequest="40" BorderRadius="10" TextColor="White" WidthRequest="70"
+        IsVisible="false" Text="Mentors"></Button></StackLayout>
+        <Label Text="Following" XAlign="Center" x:Name="hint2"></Label>
+        <ListView x:Name="listview" RowHeight="50" SeparatorColor="Blue" HasUnevenRows="true" IsVisible="false" Opacity="0.6">
+     <ListView.ItemTemplate>
+           <DataTemplate>
+                   
+                <ViewCell>
+                        
+                   
+                                <Grid>                           
+                                <Label  Grid.Row="0"  Text="{Binding Name2}" FontSize="12" x:Name="n2"/> 
+                                <Label  Grid.Row="1"  Text="{Binding Email2}" FontSize="14" x:Name="e2"/>
+                                </Grid>
+                  
+
+                          
+<ViewCell.ContextActions> 
+            <MenuItem  Text="Email"  Clicked="Email_Clicked" CommandParameter="{Binding .}"></MenuItem>
+            <MenuItem Text="SMS" Clicked="Phone_Clicked" CommandParameter="{Binding .}"></MenuItem>
+            <MenuItem  Text="Unfollow"  Clicked="Unfollow_Clicked" CommandParameter="{Binding .}" IsDestructive="true"></MenuItem>
+                </ViewCell.ContextActions>
+
+                  
+                  </ViewCell>      
+            </DataTemplate>
+     </ListView.ItemTemplate>
+ </ListView>
+  <Label Text="Follower" XAlign="Center" x:Name="hint1"></Label>
+ <ListView x:Name="listbyoth" RowHeight="50" SeparatorColor="Blue" HasUnevenRows="true" IsVisible="false" Opacity="0.6">
+     <ListView.ItemTemplate>
+           <DataTemplate>
+                   
+                <ViewCell>
+                        
+                   
+                                <Grid>                           
+                                <Label  Grid.Row="0"  Text="{Binding Name1}" FontSize="12" x:Name="n2"/> 
+                                <Label  Grid.Row="1"  Text="{Binding Email1}" FontSize="14" x:Name="e2"/>
+                                </Grid>
+                  
+
+                          
+<ViewCell.ContextActions> 
+             <MenuItem  Text="Follow"  Clicked="Follow_Clicked" CommandParameter="{Binding .}" ></MenuItem>
+            <MenuItem  Text="Remove"  Clicked="Remove_Clicked" CommandParameter="{Binding .}" IsDestructive="true"></MenuItem>
+                </ViewCell.ContextActions>
+
+                  
+                  </ViewCell>      
+            </DataTemplate>
+     </ListView.ItemTemplate>
+ </ListView>
+
+
+        
+
+        <ListView x:Name="listview2" RowHeight="50" SeparatorColor="Blue" HasUnevenRows="true"  IsVisible="false" Opacity="0.6">
+     <ListView.ItemTemplate>
+           <DataTemplate>
+                   
+                <ViewCell>
+        
+                    <StackLayout Orientation="Horizontal" Padding="5">
+
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Grid>       
+
+                          
+                                <Label  Grid.Row="0" Grid.Column="0" Text="{Binding Learner}" FontSize="12" x:Name="n2"/> 
+                             <Label  Grid.Row="1" Grid.ColumnSpan="4" Text="{Binding Email1}" FontSize="14" x:Name="e2"/>
+                                </Grid>
+                  
+
+                            </StackLayout>
+                    
+
+                 
+                            
+                     </StackLayout> 
+    <ViewCell.ContextActions> 
+            <MenuItem  Text="Email"  Clicked="Email_Clicked2" CommandParameter="{Binding .}"></MenuItem>
+            <MenuItem Text="SMS" Clicked="Phone_Clicked2" CommandParameter="{Binding .}"></MenuItem>
+                </ViewCell.ContextActions>
+
+   
+             
+                  </ViewCell>      
+            </DataTemplate>
+     </ListView.ItemTemplate>
+ </ListView>
+
+
+                <ListView x:Name="listview3" RowHeight="50" SeparatorColor="Blue" HasUnevenRows="true"  IsVisible="false" Opacity="0.6">
+     <ListView.ItemTemplate>
+           <DataTemplate>
+                   
+                <ViewCell>
+        
+                    <StackLayout Orientation="Horizontal" Padding="5">
+
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Grid>       
+
+                          
+                                <Label  Grid.Row="0" Grid.Column="0" Text="{Binding Teacher}" FontSize="12" x:Name="n2"/> 
+                             <Label  Grid.Row="1" Grid.ColumnSpan="4" Text="{Binding Email2}" FontSize="14" x:Name="e2"/>
+                                </Grid>
+                  
+
+                            </StackLayout>
+                    
+
+                 
+                            
+                     </StackLayout> 
+    <ViewCell.ContextActions> 
+            <MenuItem  Text="Email"  Clicked="Email_Clicked3" CommandParameter="{Binding .}"></MenuItem>
+            <MenuItem Text="SMS" Clicked="Phone_Clicked3" CommandParameter="{Binding .}"></MenuItem>
+                </ViewCell.ContextActions>
+
+   
+             
+                  </ViewCell>      
+            </DataTemplate>
+     </ListView.ItemTemplate>
+ </ListView>
+</StackLayout>
+</ContentPage>

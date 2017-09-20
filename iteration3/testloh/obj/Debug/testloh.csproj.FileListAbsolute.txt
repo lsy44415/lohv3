@@ -1,0 +1,10 @@
+/Users/irissss/Projects/iteration3/testloh/bin/Debug/testloh.dll
+/Users/irissss/Projects/iteration3/testloh/bin/Debug/testloh.pdb
+/Users/irissss/Projects/iteration3/testloh/bin/Debug/nunit.framework.dll
+/Users/irissss/Projects/iteration3/testloh/bin/Debug/Xamarin.UITest.dll
+/Users/irissss/Projects/iteration3/testloh/bin/Debug/nunit.framework.xml
+/Users/irissss/Projects/iteration3/testloh/bin/Debug/Xamarin.UITest.xml
+/Users/irissss/Projects/iteration3/testloh/obj/Debug/testloh.csprojResolveAssemblyReference.cache
+/Users/irissss/Projects/iteration3/testloh/obj/Debug/testloh.csproj.CoreCompileInputs.cache
+/Users/irissss/Projects/iteration3/testloh/obj/Debug/testloh.dll
+/Users/irissss/Projects/iteration3/testloh/obj/Debug/testloh.pdb

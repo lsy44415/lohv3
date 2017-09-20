@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="aqq.EditCourse"
+    
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <Grid>
+         <Image Grid.RowSpan="1" Grid.ColumnSpan="1" Opacity="0.2" x:Name="bgHel" Aspect="AspectFill"/>
+
+
+        <ScrollView Grid.Row="0" Grid.Column="0">
+
+        <StackLayout x:Name="s1"  Padding="10,10,10,10">
+             <Label Text="Edit Course" XAlign="Center" FontSize="14"></Label>
+    <Picker x:Name="location1" Title="Choose the library">
+  
+        </Picker>
+        <Entry Placeholder="Course Topic" x:Name="topic1"></Entry>
+       <DatePicker x:Name="date1" Format="dd/MM/yyyy" MinimumDate="{x:Static sys:DateTime.Now}"></DatePicker>
+                <TimePicker x:Name="time1"></TimePicker>
+    
+      <Button Text="Update" Clicked="Handle_Clicked"  BackgroundColor="#4DAFEA"
+                    HeightRequest="40" BorderRadius="10" TextColor="White" WidthRequest="70"></Button>
+            <Label x:Name="label1" IsVisible="false" TextColor="Red" FontSize="12" Text="Please enter the topic of course"></Label>
+    </StackLayout>
+        </ScrollView></Grid>
+</ContentPage>

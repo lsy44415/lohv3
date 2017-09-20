@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76A9C607-A660-4409-9FF2-3FF79265F41E}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>aqq</RootNamespace>
+    <AssemblyName>aqq</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <ReleaseVersion>3.0</ReleaseVersion>
+    <TargetFrameworkProfile>Profile151</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App.xaml" />
+    <EmbeddedResource Include="MyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourcePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\ict1.png" />
+    <EmbeddedResource Include="EnglishPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HealthPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\ict2.png" />
+    <EmbeddedResource Include="Image\ict3.png" />
+    <EmbeddedResource Include="Image\ict4.png" />
+    <EmbeddedResource Include="Image\ict5.png" />
+    <EmbeddedResource Include="Image\ict6.png" />
+    <EmbeddedResource Include="Image\eng1.png" />
+    <EmbeddedResource Include="Image\eng2.png" />
+    <EmbeddedResource Include="Image\eng3.png" />
+    <EmbeddedResource Include="Image\eng4.png" />
+    <EmbeddedResource Include="Image\eng5.png" />
+    <EmbeddedResource Include="Image\eng6.png" />
+    <EmbeddedResource Include="Image\hea4.png" />
+    <EmbeddedResource Include="Image\hea3.png" />
+    <EmbeddedResource Include="Image\hea5.png" />
+    <EmbeddedResource Include="Image\hea6.png" />
+    <EmbeddedResource Include="Image\hea2.png" />
+    <EmbeddedResource Include="Image\hea1.png" />
+    <EmbeddedResource Include="Image\f1.png" />
+    <EmbeddedResource Include="Image\f2.png" />
+    <EmbeddedResource Include="Image\f4.png" />
+    <EmbeddedResource Include="Image\f6.png" />
+    <EmbeddedResource Include="Image\f5.png" />
+    <EmbeddedResource Include="Image\f3.png" />
+    <EmbeddedResource Include="Image\chat.png" />
+    <EmbeddedResource Include="Image\map.png" />
+    <EmbeddedResource Include="Image\peer.png" />
+    <EmbeddedResource Include="Image\logo.png" />
+    <EmbeddedResource Include="Image\online.png" />
+    <EmbeddedResource Include="SkillPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\food.png" />
+    <EmbeddedResource Include="Image\health.png" />
+    <EmbeddedResource Include="Image\ict.png" />
+    <EmbeddedResource Include="Image\english.png" />
+    <EmbeddedResource Include="VolunteerPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeachPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FriendListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCourse.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="learnerClassList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Terms.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapMain.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobMap.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkipPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolunteeringJob.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolunteeringMap.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\volunteering.png" />
+    <EmbeddedResource Include="Image\job.png" />
+    <EmbeddedResource Include="StartPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\bg.jpg" />
+    <EmbeddedResource Include="Image\bg1.jpg" />
+    <EmbeddedResource Include="Image\welcomepg.jpg" />
+    <EmbeddedResource Include="Image\cp.png" />
+    <EmbeddedResource Include="Image\cl.png" />
+    <EmbeddedResource Include="Image\target.png" />
+    <EmbeddedResource Include="Disclaimer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MarkupExtension\Embeddedmage.cs" />
+    <Compile Include="MyPage.xaml.cs">
+      <DependentUpon>MyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ResourcePage.xaml.cs">
+      <DependentUpon>ResourcePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishPage.xaml.cs">
+      <DependentUpon>EnglishPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HealthPage.xaml.cs">
+      <DependentUpon>HealthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FoodPage.xaml.cs">
+      <DependentUpon>FoodPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StringTest.cs" />
+    <Compile Include="Persistence\ISQLiteDb.cs" />
+    <Compile Include="SkillPage.xaml.cs">
+      <DependentUpon>SkillPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Constants.cs" />
+    <Compile Include="Learner.cs" />
+    <Compile Include="PersonManager.cs" />
+    <Compile Include="VolunteerPage.xaml.cs">
+      <DependentUpon>VolunteerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormPage.xaml.cs">
+      <DependentUpon>FormPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeachPage.xaml.cs">
+      <DependentUpon>TeachPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ClassListPage.xaml.cs">
+      <DependentUpon>ClassListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NameListPage.xaml.cs">
+      <DependentUpon>NameListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MentorManager.cs" />
+    <Compile Include="VolunteerManager.cs" />
+    <Compile Include="LocalData.cs" />
+    <Compile Include="CourseManager.cs" />
+    <Compile Include="FriendManger.cs" />
+    <Compile Include="FriendListPage.xaml.cs">
+      <DependentUpon>FriendListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditCourse.xaml.cs">
+      <DependentUpon>EditCourse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="learnerClassList.xaml.cs">
+      <DependentUpon>learnerClassList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EnrolManager.cs" />
+    <Compile Include="Terms.xaml.cs">
+      <DependentUpon>Terms.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryManager.cs" />
+    <Compile Include="MapMain.xaml.cs">
+      <DependentUpon>MapMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMap.cs" />
+    <Compile Include="PostcodeManager.cs" />
+    <Compile Include="BicycleManager.cs" />
+    <Compile Include="JobPage.xaml.cs">
+      <DependentUpon>JobPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JobManager.cs" />
+    <Compile Include="JobMap.xaml.cs">
+      <DependentUpon>JobMap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SkipPage.xaml.cs">
+      <DependentUpon>SkipPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VolunteeringManager.cs" />
+    <Compile Include="VolunteeringJob.xaml.cs">
+      <DependentUpon>VolunteeringJob.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VolunteeringMap.xaml.cs">
+      <DependentUpon>VolunteeringMap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Job2Manager.cs" />
+    <Compile Include="ActivityIndicatorScope.cs" />
+    <Compile Include="Disclaimer.xaml.cs">
+      <DependentUpon>Disclaimer.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Image\" />
+    <Folder Include="MarkupExtension\" />
+    <Folder Include="Persistence\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.267\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.267\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.267\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net">
+      <HintPath>..\packages\sqlite-net-pcl.1.4.118\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLite-net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.core">
+      <HintPath>..\packages\SQLitePCLRaw.core.1.1.8\lib\portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_green">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.8\lib\portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCLRaw.batteries_green.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_v2">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.8\lib\portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCLRaw.batteries_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Quickblox.Sdk">
+      <HintPath>..\packages\Quickblox.Sdk.1.2.7\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Quickblox.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Quickblox.Sdk.Platform.Abstractions">
+      <HintPath>..\packages\Quickblox.Sdk.1.2.7\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Quickblox.Sdk.Platform.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Microsoft.WindowsAzure.Mobile.SQLiteStore">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Client.SQLiteStore.3.0.3\lib\portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10\Microsoft.WindowsAzure.Mobile.SQLiteStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Sockets.Plugin.Abstractions">
+      <HintPath>..\packages\rda.SocketsForPCL.2.0.2\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Sockets.Plugin.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Sockets.Plugin">
+      <HintPath>..\packages\rda.SocketsForPCL.2.0.2\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Sockets.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Client.3.0.3\lib\portable-win+net45+wp8+wpa81+monotouch+monoandroid\Microsoft.WindowsAzure.Mobile.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="project.lock.json" />
+    <None Include="project.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Forms.2.3.4.267\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.267\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+</Project>

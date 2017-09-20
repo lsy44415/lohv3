@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Padding="5,5,5,5" Title="HEALTH"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="aqq.HealthPage"
+      xmlns:local="clr-namespace:aqq.MarkupExtension"  >
+
+<ContentPage.ToolbarItems>
+    <ToolbarItem Text="Skill" Activated="Handle_Activated"></ToolbarItem>
+        </ContentPage.ToolbarItems>
+        <Grid>
+        <Image Grid.RowSpan="1" Grid.ColumnSpan="1" Opacity="0.2" x:Name="bgHel" Aspect="AspectFill"/>
+
+
+        <ScrollView Grid.Row="0" Grid.Column="0">
+
+
+        <StackLayout Spacing="10">
+    <Label Text="Course 1" Font="Bold" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.hea1.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel1Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Difficulty: ★★ " XAlign="Center"></Label>
+            <Label Text="OSHA Safety Pro: Personal Protective Equipment" FontSize="16" XAlign="Center"></Label>
+<Label Text="Impress management or get that job with you your ability to display life and dollar saving work place safety practices." FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+
+    <Label Text="Course 2" Font="Bold" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.hea2.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel2Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★★ " XAlign="Center"></Label>
+            <Label Text="Emergency Life Support" FontSize="16" XAlign="Center"></Label>
+<Label Text=" An excellent First Aid Training package for people to gain invaluable knowledge at their own time and pace."
+         FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+    
+
+    <Label Text="Course 3" Font="Bold" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.hea3.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel3Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★ " XAlign="Center"></Label>
+            <Label Text="Sports Nutrition Crash Course: Get Started with the Basics" FontSize="16" XAlign="Center"></Label>
+<Label Text="Increase your nutritional knowledge on a basic level. Complete the full course after this one!"
+         FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+    
+
+    <Label Text="Course 4" Font="Bold" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.hea4.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel4Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★ " XAlign="Center"></Label>
+            <Label Text="Living with the Low FODMAP Diet" FontSize="16" XAlign="Center"></Label>
+
+                <Label Text="Learn more about the Low FODMAP Diet for IBS" FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+
+    <Label Text="Course 5" Font="Bold" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.hea5.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel5Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★★ " XAlign="Center"></Label>
+            <Label Text="Healthy Ageing in 6 Steps. Let your environment do the work." FontSize="16" XAlign="Center"></Label>
+<Label Text="Learn how to make healthy choices and adjustments to your lifestyle and environment to help you live a healthier, happier and longer life."
+         FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+
+    <Label Text="Course 6" Font="Bold" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.hea6.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel6Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                   <Label Text="Difficulty: ★ " XAlign="Center"></Label>
+            <Label Text="Life with Diabetes" FontSize="16" XAlign="Center"></Label>
+<Label Text="Learn how to confidently manage your diabetes and live a healthy, happy life."
+         FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+    
+</StackLayout>  
+ </ScrollView>
+    </Grid>
+    </ContentPage>

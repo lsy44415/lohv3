@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="aqq.StartPage">
+
+ <Grid BackgroundColor="Transparent"  >
+
+    <Image Grid.RowSpan="4" Grid.ColumnSpan="5" x:Name="background" Aspect="AspectFill"/>
+
+
+
+        <StackLayout Grid.Row="1" Grid.ColumnSpan="5" HorizontalOptions="Center">
+
+        <Label x:Name="wel" TextColor="White" Text="Welcome!" FontFamily="Times New Roman" FontAttributes="Italic" FontSize="50">
+            </Label>
+        </StackLayout>
+        
+        <StackLayout Padding="20,-50,10,0" Grid.Row="2" Grid.ColumnSpan="5" HorizontalOptions="Center" >
+
+        <Label Font="Bold" FontSize="17" FontFamily="Times New Roman" TextColor="White" Text="Lantern of Hope is a new way to learn with peers, checkout online courses, search for recruitment services and volunteer for jobs."></Label>
+        <Label HorizontalOptions="Center" FontFamily="Times New Roman"  FontSize="23" TextColor="White" Text="Let's help each other out!"></Label>
+        </StackLayout>
+       
+    <Button Grid.Row = "3" Grid.Column="2" x:Name="next" Text="Got it!" BackgroundColor="Transparent"
+            FontSize = "24"        
+        Clicked = "Handle_Clicked"/>
+ </Grid>
+
+    
+</ContentPage>

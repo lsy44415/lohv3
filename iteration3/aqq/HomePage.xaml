@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage Title="Lantern of Hope"
+    Padding="0,10,0,30"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+      xmlns:local="clr-namespace:aqq.MarkupExtension" 
+    x:Class="aqq.HomePage">
+
+
+            <ContentPage Title="Home" Icon="home.png" >
+            <ScrollView>
+   <RelativeLayout>
+  <Button Text="Log out" RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.75, Constant=0}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0,Constant=10}" Clicked="Login_Clicked"></Button>     
+  <Image x:Name="image1" WidthRequest="125"  RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.35, Constant=0}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0,Constant=10}" 
+            Source="{local:EmbeddedImage ResourceId = aqq.Image.logo.png}"
+        ></Image>
+      
+       
+            <Image   RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=.32,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Height,Factor=.32,Constant=0}"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.13, Constant=0}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.35,Constant=0}" 
+                Source="{local:EmbeddedImage ResourceId = aqq.Image.online.png}">
+                ，
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnImage1Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+     <Label Text="Online Resources" RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.13, Constant=0}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.65,Constant=0}" ></Label>
+        
+  
+          <Image  Aspect="AspectFit"   RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=.32,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Height,Factor=.32,Constant=0}" RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.6, Constant=-20}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.35,Constant=0}" 
+                Source="{local:EmbeddedImage ResourceId = aqq.Image.peer.png}" 
+           >
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnImage2Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+        <Label Text="Peer Learning" RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.6, Constant=-10}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.65,Constant=0}"  ></Label>
+        
+        <Image  Aspect="AspectFit"  RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=.32,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Height,Factor=.32,Constant=0}"
+                Source="{local:EmbeddedImage ResourceId = aqq.Image.map.png}" 
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.13, Constant=0}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.67,Constant=0}" >
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnImage3Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+             <Label Text="Map" RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.25, Constant=0}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.95,Constant=0}"  ></Label>
+        
+         <Image  Aspect="AspectFit"  RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=.32,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Height,Factor=.32,Constant=0}"
+                Source="{local:EmbeddedImage ResourceId = aqq.Image.chat.png}" 
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.6, Constant=-20}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.67,Constant=0}" >
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnImage4Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+       <Label Text="Contact" RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.63, Constant=0}"
+    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.95,Constant=0}"  ></Label>
+        
+
+    </RelativeLayout>
+    </ScrollView></ContentPage>
+    <ContentPage Title="about us" Icon="about.png" Padding="10,5,10,5">
+  <ScrollView > <StackLayout Spacing="10">
+        <Label Text= "About Us" XAlign="Center" FontSize="20"></Label>
+        <Image AnchorX="0.4" Source="{local:EmbeddedImage ResourceId = aqq.Image.logo.png}" ></Image>
+        <Label 
+            Text="For the refugees in Victoria, who have lack of education facilities to help them learn new skills. Lantern of Hope is an app that will connect skilled refugees to all other refugees who are looking to learn new skills. This app will use the resources within the refugee community to improve lives of other refugees. In this way, the refugees will not be dependent on the help of other organization like in case of other solutions available in Victoria."></Label>
+        </StackLayout>
+            </ScrollView>
+    </ContentPage>
+
+      <ContentPage Title="help" Icon="help.png">
+         <ScrollView>
+     <StackLayout>
+     <Label Text="Help page" FontSize="20" XAlign="Center"></Label>
+        <StackLayout Orientation="Vertical"
+                     Padding="20, 10 ,20, 0" Spacing ="10">
+            <Label Text="There are four functions in Lantern of Hope mobile application, Online Resouces, Peer Learning, Map and Chat, which are explained in the following paragraphes. In the tool bar below you can access the page of Home, About Us or Help." />
+            <StackLayout Orientation="Horizontal">
+                <Image  Source="{local:EmbeddedImage ResourceId = aqq.Image.online.png}" 
+                        VerticalOptions="Start"
+                        WidthRequest="50" />
+                <Label Text="1. In Online Resources, you can browse free online courses according to your interest, but you have to fill out your basic information and interest list before browsing. The information filled will be used to recommend learning pals to you." />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.peer.png}" 
+                        VerticalOptions="Start"
+                        WidthRequest="50"/>
+                <Label Text="2. In Peer Learning, you will be matched up in peer to exchange your skillset, here you can teach whatever you can teach and find teacher for whatever you want to learn." />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.map.png}" 
+                        VerticalOptions="Start"
+                        WidthRequest="50"/>
+                <Label Text="3. In Map, you can find everything about learning, such as libraries, nearby non-profit organizations which may offer classes. Walk around with the map, you will find a lot suprises." />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.chat.png}" 
+                        VerticalOptions="Start"
+                        WidthRequest="50"/>
+                <Label Text="4. In Chat, you can get touch with your community. It is a good platform for socializing. You can share your learning experience with others or simply say hi to new friends." />
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>  </ScrollView></ContentPage>
+</TabbedPage>

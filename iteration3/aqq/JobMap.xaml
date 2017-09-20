@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+ xmlns:local="clr-namespace:aqq;assembly=aqq"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="aqq.JobMap"
+    BackgroundColor="#EBE9E6">
+	<StackLayout>
+         <ActivityIndicator Color="Black"
+                       IsVisible="False"
+                       IsEnabled="True"
+                        IsRunning="true"
+                       x:Name="syncIndicator"/>
+        
+        <Label Text="You chose: " FontSize="18"></Label>
+    <Label x:Name="label1" FontSize="20" BackgroundColor="Black" Opacity="0.8" TextColor="White"></Label>
+         <Label x:Name="label2" ></Label>
+         <Label x:Name="label3"></Label>
+        
+         <Label x:Name="label6"></Label>
+         <Label x:Name="label7"></Label>
+         <Label x:Name="label4"></Label>
+         <Label x:Name="label5"></Label>
+        <Label Text="Click the pin to get direction:" TextColor="Red"></Label>
+         <local:CustomMap x:Name="myMap" MapType="Street" WidthRequest="{x:Static local:App.ScreenWidth}"
+            HeightRequest="100"/>
+    </StackLayout>
+</ContentPage>

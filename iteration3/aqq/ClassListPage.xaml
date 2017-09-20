@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+ BackgroundColor="#EBE9E6"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="aqq.ClassListPage">
+<StackLayout Padding="10,10,10,10">
+<Label Text=" Course List" FontSize="14" XAlign="Center" x:Name="title"></Label>
+<Label XAlign="Center" Text="These are all courses offered by you. You can edit or delete the class by choosing the specific class and swiping left. " FontSize="12"></Label>
+
+        <ListView x:Name="listview1" RowHeight="75" SeparatorColor="Navy" Opacity="0.6" >
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                <ViewCell>
+                  <Grid> 
+                <Grid.ColumnDefinitions>  
+                        <ColumnDefinition Width="1*" />  
+                        <ColumnDefinition Width="1*" />  
+                        <ColumnDefinition Width="2*" />  
+                </Grid.ColumnDefinitions>  
+       
+       <!--  <Label Grid.Row="0" Grid.Column="0" Text="{Binding Skill}" FontSize="11"/> -->
+          <Label Grid.Row="0" Grid.Column="1" Text="Topic: " FontSize="11"></Label>        
+         <Label Grid.Row="0" Grid.Column="2" Text="{Binding Topic}" FontSize="11"/>  
+         <Label  Grid.Row="1" Grid.ColumnSpan="3" Text="{Binding Location}" FontSize="11"/>
+          <Label Grid.Row="2" Grid.Column="0" Text="Date: " FontSize="11"></Label>        
+          <Label  Grid.Row="2" Grid.Column="1" Text="{Binding Date}" FontSize="11"/>
+          <Label  Grid.Row="2" Grid.Column="2" Text="{Binding Time}" FontSize="11"/>
+         <!--  <Label Grid.Row="3" Grid.Column="0" Text="Teacher: " FontSize="11"></Label>  -->
+          <Label  Grid.Row="0" Grid.Column="0" Text="{Binding Name}" FontSize="11"/>
+        <!--  <Label  Grid.Row="3" Grid.Column="2" Text="{Binding Email}" FontSize="11"/>-->
+        </Grid>
+                         <ViewCell.ContextActions> 
+                        <MenuItem Text="EDIT" Clicked="Edit_Clicked"  CommandParameter="{Binding .}"></MenuItem>
+                        <MenuItem Text="DELETE" Clicked="Delete_Clicked" CommandParameter="{Binding .}" IsDestructive="true"></MenuItem>
+                            </ViewCell.ContextActions>
+                  </ViewCell>      
+            </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
+
+        
+    </StackLayout>
+</ContentPage>

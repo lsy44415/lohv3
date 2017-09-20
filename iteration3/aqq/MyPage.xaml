@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+   
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="aqq.MyPage"
+    Padding="10,20,10,10">
+    <ScrollView>
+      
+<StackLayout Spacing="5">
+              <ActivityIndicator Grid.RowSpan="2"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       IsVisible="False"
+                       IsEnabled="True"
+                       x:Name="syncIndicator"/>
+            <Label Text="If you don't want peer learning, you can skip the form" FontSize="14"></Label>
+            <Button Text="SKIP" Clicked="Skip_clicked"></Button>
+      <!--  <Label Text="Which skill you want to learn:" HorizontalOptions="Center"> </Label>
+        <Picker x:Name="picker" Title="skills list">
+        <Picker.Items>
+                <x:String>ICT</x:String>
+                <x:String>English</x:String>
+                <x:String>Health</x:String>
+                <x:String>Food</x:String>
+            </Picker.Items>
+        </Picker>-->
+ 
+
+            
+            <Entry TextColor="Navy" Keyboard="Text" 
+            Placeholder="First name" x:Name="fname"></Entry>
+       <Label x:Name="label1" TextColor="Red" FontSize="10" IsVisible="false"></Label>
+        <Entry TextColor="Navy" Keyboard="Text"
+         Placeholder="Last name" x:Name="lname"></Entry>
+            <Label x:Name="label2" TextColor="Red" FontSize="10" IsVisible="false"></Label>
+            <Entry TextColor="Navy" Keyboard="Email"
+         Placeholder="Email address" x:Name="email"></Entry>
+             <Label x:Name="label3" TextColor="Red" FontSize="10" IsVisible="false"></Label>
+              <Entry TextColor="Navy" Keyboard="Text" 
+            Placeholder="PostCode" x:Name="post"></Entry>
+       <Label x:Name="label4" TextColor="Red" FontSize="10" IsVisible="false"></Label>
+             <StackLayout Orientation="Vertical" Spacing="5">
+
+
+
+
+                <Label FontSize="15"
+                Text="Please choose if you are living in the facility or utilizing a service from following organisation: "></Label>
+        <Picker x:Name="picker2" Title="facility name" ></Picker>
+
+
+            </StackLayout> 
+       <Grid Padding="5,5,5,0">
+       <Switch x:Name="switch1" IsToggled="false" Grid.Row="0" Grid.Column="5"></Switch> 
+            <Label Grid.Row="0" Grid.ColumnSpan="5" FontSize="15"
+                Text="I agree to store my personal information to database and receive emails"></Label>
+        </Grid>
+      
+
+<!-- <ListView x:Name="listview2" RowHeight="50" SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                <ViewCell>
+                  <Grid>
+       
+      
+          <Label Grid.Row="0" Grid.Column="0" Text="{Binding name}" FontSize="11"/>
+          <Label  Grid.Row="0" Grid.Column="1" Text="{Binding postcode}" FontSize="11"/>
+ <Label  Grid.Row="0" Grid.Column="2" Text="{Binding Skill}" FontSize="11"/>
+          <Label x:Name="labelstate" Grid.Row="2" Grid.ColumnSpan="3" Text="{Binding details}" FontSize="11"/>
+          <Label  Grid.Row="1" Grid.Column="0" Text="{Binding details.stateab}" FontSize="11"/>
+          <Label  Grid.Row="1" Grid.Column="1" Text="{Binding locality}" FontSize="11"/>
+        </Grid>
+                  </ViewCell>      
+            </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
+
+           
+            -->
+     
+        <Button Text= "Submit" Clicked="Handle_Clicked2"></Button>
+        <Button Text="Back" Clicked="Handle_Clicked"></Button>
+       <ListView x:Name="listview1" RowHeight="50" SeparatorVisibility="None" IsVisible="false">
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                <ViewCell>
+                  <Grid>
+          
+          <Label Grid.Row="0" Grid.Column="0" Text="{Binding Fname}" FontSize="11"/>
+          <Label  Grid.Row="0" Grid.Column="1" Text="{Binding Lname}" FontSize="11"/>
+         <!-- <Label  Grid.Row="0" Grid.Column="2" Text="{Binding Skill}" FontSize="11"/>-->
+          <Label  Grid.Row="2" Grid.ColumnSpan="3" Text="{Binding Place}" FontSize="11"/>
+          <Label  Grid.Row="1" Grid.Column="0" Text="{Binding Postcode}" FontSize="11"/>
+          <Label  Grid.Row="1" Grid.Column="1" Text="{Binding Email}" FontSize="11"/>
+        </Grid>
+                  </ViewCell>      
+            </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
+             <StackLayout Orientation="Horizontal"  Spacing="40" VerticalOptions="Center" HorizontalOptions="Center"> 
+            <Button Text="Display" HorizontalOptions="End"  Clicked="click_display"></Button>
+            <Button Text="Delete" Clicked="OnDelete" />
+      </StackLayout>
+    </StackLayout>
+        </ScrollView>
+</ContentPage>

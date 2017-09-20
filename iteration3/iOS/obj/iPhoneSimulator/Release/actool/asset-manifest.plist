@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/bundle/AppIcon29x29.png</string>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 60x60@2x app icon is required for iPhone apps targeting iOS 7.0 and later</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 76x76 app icon is required for iPad apps targeting iOS 7, 8, and 9</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 76x76@2x app icon is required for iPad apps targeting iOS 7.0 and later</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 83.5x83.5@2x app icon is required for iPad apps targeting iOS 9.0 and later</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][29x29][][][3x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>AppIcon.appiconset/Untitled.png is 29x29 but should be 87x87.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][40x40][][][2x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>AppIcon.appiconset/Untitled.png is 29x29 but should be 80x80.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][57x57][][][1x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>AppIcon.appiconset/Untitled.png is 29x29 but should be 57x57.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][29x29][][][2x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>AppIcon.appiconset/Untitled.png is 29x29 but should be 58x58.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][60x60][][][2x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>AppIcon.appiconset/Untitled.png is 29x29 but should be 120x120.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][57x57][][][2x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>AppIcon.appiconset/Untitled.png is 29x29 but should be 114x114.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][60x60][][][3x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>AppIcon.appiconset/Untitled.png is 29x29 but should be 180x180.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][40x40][][][3x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/irissss/Projects/aqq 3/iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>AppIcon.appiconset/Untitled.png is 29x29 but should be 120x120.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>

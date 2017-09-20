@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage Title="Lantern of Hope"
+  
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+      xmlns:local="clr-namespace:aqq.MarkupExtension" 
+    x:Class="aqq.SkipPage">
+
+
+            <ContentPage Padding="15,5,15,5" BackgroundColor="#F9F6F6"  Title="Home" Icon="home.png" >
+ 
+             <Grid>
+
+            
+               <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+               <Label BackgroundColor="#0C59CF" FontSize="12" TextColor="#FEFCE0" Text="Find online courses and connect with others!"></Label>
+                   <Grid ColumnSpacing="0">
+
+                   <Image Grid.Row="0" Grid.Column="0" Source="{local:EmbeddedImage ResourceId = aqq.Image.online.png}" >
+        <Image.GestureRecognizers>
+            <TapGestureRecognizer
+            Tapped="OnImage1Tapped"
+            NumberOfTapsRequired="1" />
+               </Image.GestureRecognizers>
+            </Image>
+
+             <Image Grid.Row="0" Grid.Column="1" Source="{local:EmbeddedImage ResourceId = aqq.Image.peer.png}">
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnImage5Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                 </Grid>
+                </StackLayout>
+
+
+
+                <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" >
+             <Label BackgroundColor="#0C59CF" FontSize="12" TextColor="#FEFCE0" Text="Want help with job hunting or looking to volunteer?"></Label>
+
+                    <Grid ColumnSpacing="0">
+                     
+                     <Image Grid.Row="0" Grid.Column="0" Source="{local:EmbeddedImage ResourceId = aqq.Image.job.png}" >
+             <Image.GestureRecognizers>
+             <TapGestureRecognizer
+                         Tapped="OnImage2Tapped"
+                        NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+             </Image>   
+
+
+
+              <Image Grid.Row="0" Grid.Column="1" Source="{local:EmbeddedImage ResourceId = aqq.Image.volunteering.png}">
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnImage4Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                         
+                    </Grid>
+                </StackLayout>
+
+                <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <Label BackgroundColor="#0C59CF" FontSize="12" TextColor="#FEFCE0" Text="Lookup contacts and resource maps here!"></Label>
+
+                    <Grid ColumnSpacing="0">
+
+                    <Image Grid.Row="0" Grid.Column="0"  Source="{local:EmbeddedImage ResourceId = aqq.Image.map.png}"  >
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnImage3Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>   
+
+                 <Image Grid.Row="0" Grid.Column="1"   Source="{local:EmbeddedImage ResourceId = aqq.Image.chat.png}" >
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnImage6Tapped"
+            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>      
+                    </Grid>
+                </StackLayout>
+                </Grid>
+
+
+</ContentPage>         
+            
+           
+    <ContentPage Title="about us" Icon="about.png" >
+ <Grid>
+    <Image Grid.RowSpan="1" Grid.ColumnSpan="1" x:Name="backgroundAboutus" Aspect="AspectFill" Opacity="0.2"/>
+
+        <ScrollView Grid.Row = "0" Grid.Column="0"> <StackLayout Spacing="20" Padding="10,5,10,5" >
+      
+        <Image AnchorX="0.4" Source="{local:EmbeddedImage ResourceId = aqq.Image.logo.png}" HeightRequest="80" ></Image>
+        <Label BackgroundColor="Gray" Opacity="0.7" TextColor="White"
+            Text="For the refugees in Victoria, who have lack of education facilities to help them learn new skills. Lantern of Hope is an app that will connect skilled refugees to all other refugees who are looking to learn new skills. This app will use the resources within the refugee community to improve lives of other refugees. In this way, the refugees will not be dependent on the help of other organization like in case of other solutions available in Victoria."></Label>
+
+             <Label x:Name="disclaimer" Text="    Disclaimer " FontSize="10" XAlign="End" YAlign="End">
+
+                <Label.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabelTapped"
+            NumberOfTapsRequired="1" />
+                </Label.GestureRecognizers>
+
+                </Label>
+           
+
+                </StackLayout>
+            </ScrollView>
+            </Grid>
+    </ContentPage>
+
+      <ContentPage Title="help" Icon="help.png">
+        <Grid>
+
+          <Image Grid.RowSpan="1" Grid.ColumnSpan="1" x:Name="backgroundHelp" Aspect="AspectFill" Opacity="0.2"/>
+         <ScrollView Grid.Row = "0" Grid.Column="0">
+     <StackLayout BackgroundColor="Gray" Opacity="0.7">
+
+        <StackLayout Orientation="Vertical"
+                     Padding="20, 10 ,20, 0" Spacing ="10">
+            <Label TextColor="White" Text="There are four functions in Lantern of Hope mobile application, Online Resouces, Peer Learning, Map and Chat, which are explained in the following paragraphes. In the tool bar below you can access the page of Home, About Us or Help." />
+            <StackLayout Orientation="Horizontal">
+                <Image  Source="{local:EmbeddedImage ResourceId = aqq.Image.online.png}" 
+                        VerticalOptions="Start"
+                        WidthRequest="50" />
+                <Label TextColor="White" Text="1. In Online Resources, you can browse free online courses according to your interest, but you have to fill out your basic information and interest list before browsing. The information filled will be used to recommend learning pals to you." />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image  Source="{local:EmbeddedImage ResourceId = aqq.Image.peer.png}" 
+                        VerticalOptions="Start"
+                        WidthRequest="50"/>
+                <Label TextColor="White"  Text="2. In Peer Learning, you will be matched up in peer to exchange your skillset, here you can teach whatever you can teach and find teacher for whatever you want to learn." />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.map.png}" 
+                        VerticalOptions="Start"
+                        WidthRequest="50"/>
+                <Label TextColor="White"  Text="3. In Map, you can find everything about learning, such as libraries, nearby non-profit organizations which may offer classes. Walk around with the map, you will find a lot suprises." />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.chat.png}" 
+                        VerticalOptions="Start"
+                        WidthRequest="50"/>
+                <Label TextColor="White"  Text="4. In Chat, you can get touch with your community. It is a good platform for socializing. You can share your learning experience with others or simply say hi to new friends." />
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>  </ScrollView></Grid></ContentPage>
+
+
+
+
+    
+   <ContentPage Title = "Me" Icon="me.png">
+
+         <Grid >
+       <Image Grid.RowSpan="1" Grid.ColumnSpan="1" x:Name="bgME" Aspect="AspectFill" Opacity="0.2"/>
+              <ScrollView Grid.Row = "0" Grid.Column="0">
+                
+       <StackLayout  BackgroundColor = "Gray" Opacity="0.7">
+
+                 <Button Text="Log In" TextColor= "White" Clicked="Login_Clicked" BackgroundColor="#4DAFEA" x:Name="loginbtn"
+            FontSize="20"/>   
+               
+        
+        <Grid>
+               
+                <Label Grid.Row="0" Grid.Column="0" Text="Your Email is:" TextColor= "White" />
+         <Label Grid.Row="0" Grid.Column="1" FontSize="18" TextColor="White" x:Name="myEmail"/>
+            <Label Grid.Row="1" Grid.Column="0" Text="Your Phone is:" TextColor= "White" />
+         <Label Grid.Row="1" Grid.Column="1"  FontSize="18" TextColor="White" x:Name="myPhone"/>
+                     <Label Grid.Row="2" Grid.Column="0" Text="Your Status is:" TextColor= "White" />
+         <Label  Grid.Row="2" Grid.Column="1" FontSize="18" TextColor="White" x:Name="myStatus"/>
+          <Label Grid.Row="3" Grid.Column="0" Text="Your Skill is:" TextColor= "White"/>
+         <Label Grid.Row="3" Grid.Column="1" FontSize="18" TextColor="White" x:Name="mySkill"/>
+           
+          <Label Grid.Row="4" Grid.Column="0" Text="Your Username is:" TextColor= "White" />
+         <Label Grid.Row="4" Grid.Column="1" FontSize="18" TextColor="White" x:Name="myName"/>
+            <Label Grid.Row="5" Grid.Column="0" Text="Your Postcode is:" TextColor= "White" />
+         <Label Grid.Row="5" Grid.Column="1"  FontSize="18" TextColor="White" x:Name="myPostcode"/>
+           
+         </Grid>
+          
+            <Button  Text="Edit Personal Profile" BackgroundColor="#4DAFEA" TextColor="White" x:Name="editlea" Clicked="Edit_Click_lea" IsVisible="false" BorderWidth="1" BorderColor="White"/>  
+                 <Button  Text="Edit Personal Profile" TextColor="White" x:Name="editvol" Clicked="Edit_Click_vol" IsVisible="false"  BorderWidth="1" BorderColor="White"/>       
+           <StackLayout Padding="10,10,10,10" Spacing="5" x:Name="volun" IsVisible="false">
+       
+        <Label XAlign="Center" FontSize="12" Text="Thank you for volunteering! " TextColor="White" ></Label>
+                <Label XAlign="Center" FontSize="12" Text="Please fill out this form so that we can match you with the learners:" TextColor="White"></Label>
+        <Label XAlign="Center" Text="Please let us know what skill you are interesting in teaching:" TextColor="White" ></Label>
+
+     <Picker x:Name="picker" Title="Skills list">
+        <Picker.Items>
+                <x:String>ICT</x:String>
+                <x:String>English</x:String>
+                <x:String>Health</x:String>
+                <x:String>Food</x:String>
+            </Picker.Items>
+        </Picker>
+        
+        <Entry TextColor="Navy" Keyboard="Text"
+         Placeholder="Name" x:Name="name"></Entry>
+            <Label x:Name="label1" IsVisible="false" TextColor="Red" FontSize="12" Text="Please enter a username"></Label>
+
+              <Entry TextColor="Navy" Keyboard="Text" 
+            Placeholder="PostCode" x:Name="post"></Entry>
+                <Label x:Name="label3" IsVisible="false" TextColor="Red" FontSize="12" Text="Please enter a valid Victoria postcode(e.g.3000)"></Label>
+        <Label Text="Please explain your past experience related to the skill you want to teach (Optional) "></Label>
+      
+        <Editor x:Name="editor" Keyboard="Text" HeightRequest="80" BackgroundColor="White" Opacity="0.8"></Editor>
+
+        <Button Text="Update" Clicked="Handle_Clicked" BackgroundColor="#63B4AD"></Button>
+     
+     
+
+    </StackLayout>  
+  
+    <StackLayout Padding="10,20,10,10" Spacing="5" x:Name="form" IsVisible="false" BackgroundColor="Silver">
+
+ <Label XAlign="Center" Text="Please let us know what skill you are interesting in learning:" TextColor="Black" ></Label>
+     <Picker x:Name="picker1" Title="Skills list">
+        <Picker.Items>
+                <x:String>ICT</x:String>
+                <x:String>English</x:String>
+                <x:String>Health</x:String>
+                <x:String>Food</x:String>
+            </Picker.Items>
+        </Picker>
+  
+        <Entry TextColor="Navy" Keyboard="Text"
+         Placeholder="User name" x:Name="name1"></Entry>
+           
+              <Entry TextColor="Navy" Keyboard="Text" 
+            Placeholder="PostCode" x:Name="post1"></Entry>
+      
+
+       <Button Text="Update" Clicked="Handle_Clicked1" x:Name="btn1" BackgroundColor="#63B4AD" TextColor="White"></Button>
+      
+        <Label x:Name="label11" IsVisible="false" TextColor="Red" FontSize="12" Text="Please enter a username"></Label>
+         <Label x:Name="label13" IsVisible="false" TextColor="Red" FontSize="12" Text="Please enter a valid Victoria postcode(e.g.3000)"></Label>
+        
+    </StackLayout>
+
+
+      <Button Text="Log Out" TextColor= "White" Clicked="Logout_Clicked" BackgroundColor="Red" x:Name="logoutbtn"
+            FontSize="20"/> 
+  </StackLayout>               
+       
+     </ScrollView>       
+      
+ </Grid>
+
+ </ContentPage>
+    
+</TabbedPage>
